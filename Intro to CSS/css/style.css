@@ -1,0 +1,75 @@
+body {
+	margin: 0;
+}
+
+.content {
+	width: 800px;
+	margin: 0 auto;
+	background-color: silver;
+}
+
+.artist .info {
+	margin-left: 1em;
+}
+
+.artist .info .breadcrumbs {
+	padding-top: 10px;
+}
+
+.artist .info img {
+	float: right;
+}
+
+.albums {
+	clear: right;
+	background-color: black;
+	padding: 10px 20px;
+	color: silver;
+}
+
+.albums a {
+	color: silver;
+}
+
+.albums h2 {
+	margin: 0 0 10px;
+}
+
+.albums .sort {
+	float: right;
+}
+
+.albums .album img {
+	height: 100px;
+	float: left;
+	padding-right: 10px;
+}
+
+.albums .album {
+	float: left;
+	width: 30%;
+	margin-right: 10px;
+}
+
+.albums .album h3 {
+	margin: 0;
+	font-size: 14px;
+	white-space: nowrap;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+}
+
+.albums .album p {
+	margin: 0;
+}
+
+.albums .pagination {
+	display: inline;
+	font-size: 10px;
+}
+
+.clearfix {
+	clear:both;
+}

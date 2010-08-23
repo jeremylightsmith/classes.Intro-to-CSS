@@ -1,0 +1,35 @@
+Outcomes :
+	Students will understand and be able to use :
+		basic selectors - $('.albums')...
+		show / hide - .show()...
+		an animation - .fadeIn(slow)...
+		css modifier - .css('background-color', 'red')
+		document ready - $(function() { ... });
+		simple event handler - .click(function() {...
+		
+		some basic ajax methods :
+			load
+			getJSON
+
+	Students will be able to inspect / debug using :
+		browser console
+		browser script debugger
+		browser resources
+		browser element browser
+
+	Students will know where documentation is :
+		docs.jquery.com
+		leave w/ cheatsheet
+
+Plan :
+	1. show music website
+	
+	2. use console to explain selectors, show/hide, animations, css modifiers
+			let students try
+	3. use ajax to load albums from separate .html file
+			let students try
+	4. use ajax to load albums as json, then render dynamic html
+			let students try
+	5. use click handler to change background-color of albums to red when an image is clicked
+			use live event handler
+			toggle between yellow & red using switch statement
